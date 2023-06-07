@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E6</title>
+</head>
+<body>
+<h1>This is HTML form episode</h1>
+<form action="backend.php">
+  <div>
+    Name: <input type="text" name="myName">
+  </div>
+<br>
+<div>
+    Role: <input type="text" name="myRole">
+</div>
+<br>
+<div>
+    Email:<input type="email" name="myEmail">
+</div>
+<!-- name is used for collect data in backend -->
+
+<br>
+<div>
+    Date:<input type="date" name="myDate">
+</div>
+<br>
+<div>
+    Bonus:<input type="number" name="myBonus">
+
+</div>
+<br>
+ <div>
+    Are you Eligible?<input type="checkbox" name="myEligibility" checked>
+ </div>
+        <!-- checkbox for box 
+              checked for tick always in box-->
+ <br>
+ <div>
+    Gender:Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+ </div>
+         <!-- radio is used for choice only one thing -->
+ <br>
+ <div>
+     Enter about yourself:<textarea name="myText" cols="30" rows="10"></textarea>
+ </div>
+<br>
+<div>
+    <!-- label is for select and it is same id used in "for" -->
+    <label for="car">Car</label>
+    <select name="myCar" id="car">
+        <option value="tha">THAR</option>
+        <option value="fort">FORTUNER</option>
+
+    </select>
+
+</div>
+<br>
+ <div>
+    <input type="submit" value="Submit Now">
+ </div>
+ <br>
+ <div>
+      <input type="reset" value="Reset Now">
+    </div>
+
+
+
+
+
+
+ 
+</form>
+
+    
+</body>
+</html>
